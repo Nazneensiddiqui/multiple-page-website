@@ -1,0 +1,593 @@
+/*................1st navbar.............*/
+.nevbar {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap-reverse;
+}
+
+.nevbar h4 {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  to {
+    left: -10px;
+    top: 0px;
+  }
+  from {
+    top: 0;
+    left: 100px;
+  }
+}
+.nevbar ul {
+  display: flex;
+  position: relative;
+  left: 100px;
+  gap: 30px;
+  align-items: center;
+}
+
+/*..............2nd bars.............*/
+.bars {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(242, 238, 238);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.bars ul {
+  display: flex;
+  position: absolute;
+  left: 1000px;
+  gap: 20px;
+}
+
+.bars h1 {
+  position: absolute;
+  left: 600px;
+  color: rgb(243, 13, 13);
+  font-family: initial;
+}
+
+.bars h1:hover {
+  color: blueviolet;
+}
+
+.bars img {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+}
+
+/*.............ali ..............*/
+.ali ul {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ali {
+  display: none;
+}
+
+/*.............list...........*/
+.list label {
+  display: none;
+}
+
+.list label i {
+  color: blue;
+}
+
+.list ul li {
+  display: none;
+}
+
+/*checkbox hatane ke liye*/
+#demo {
+  display: none;
+}
+
+/*icon ko click karne par open hone wali list ko target karne ke liye*/
+#demo:checked ~ .list ul li {
+  display: block;
+}
+
+/*.............responsive navebar...................*/
+@media screen and (max-width: 600px) {
+  .nevbar ul {
+    display: none;
+  }
+  .bars1 details summary {
+    display: none;
+  }
+  .bars h1 {
+    position: relative;
+    left: 200px;
+    top: 10px;
+    flex-wrap: wrap-reverse;
+    font-size: 20px;
+  }
+  .list ul {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+    color: blueviolet;
+  }
+  .list label {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+  .ali {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+  }
+  .bars ul {
+    display: none;
+  }
+}
+/*....................sona bars1............*/
+.bars1 {
+  background-color: rgb(242, 238, 238);
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap-reverse;
+  height: 50px;
+}
+
+.bars1 details summary:hover {
+  color: rgb(236, 16, 16);
+}
+
+.ch {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.parent {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  font-style: initial;
+  grid-template-columns: repeat(6, auto);
+}
+
+.parent h3 {
+  color: rgb(245, 164, 164);
+}
+
+.ch ul {
+  color: rgb(91, 101, 112);
+  line-height: 40px;
+}
+
+.son {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.papa {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  font-style: initial;
+  grid-template-columns: repeat(5, auto);
+}
+
+.papa h3 {
+  color: rgb(241, 196, 196);
+}
+
+.son ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+.wo {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.wom {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+.wom h3 {
+  color: rgb(241, 196, 196);
+}
+
+.wo ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+.of {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.off {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.off h3 {
+  color: rgb(241, 196, 196);
+}
+
+.of ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+.ab1 {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.ab {
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  grid-template-columns: 200px;
+}
+
+.ab1 ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+/*...................grid responsive..........*/
+@media screen and (max-width: 600px) {
+  .parent {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .papa {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .wom {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .off {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .ab {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+}
+/*......................web image..........*/
+.web img {
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap-reverse;
+}
+
+.web1 img {
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap-reverse;
+}
+
+.web2 img {
+  align-items: center;
+  padding: 60px;
+  flex-wrap: wrap-reverse;
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+  .web img {
+    width: 100%;
+    margin-left: -60px;
+  }
+  .web1 img {
+    width: 100%;
+    margin-left: -60px;
+  }
+  .web2 img {
+    width: 100%;
+    margin-left: -60px;
+  }
+}
+/*................for image...............*/
+.for {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+h1:hover {
+  color: blue;
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+  .for {
+    width: 100%;
+    position: relative;
+    left: -25px;
+  }
+}
+/*................mens image...............*/
+.mens button:hover {
+  background-color: rgb(245, 160, 160);
+  color: blue;
+  border-radius: 10px;
+  flex-wrap: wrap-reverse;
+}
+
+.mens {
+  background-color: rgb(255, 243, 243);
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin: 20px;
+}
+
+.mens img:hover {
+  height: 310px;
+  width: 310px;
+}
+
+.mens h2 {
+  color: blueviolet;
+  flex-wrap: wrap-reverse;
+}
+
+.mens h4 {
+  color: darkgreen;
+}
+
+.men1 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men2 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men3 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men4 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men5 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men6 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men7 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men8 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men9 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men10 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men11 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+.men12 {
+  height: 520px;
+  flex-wrap: wrap-reverse;
+  width: 250px;
+  box-shadow: 1px 1px 2px black;
+  padding-right: 20px;
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+  .mens {
+    width: 100%;
+    position: relative;
+    left: -25px;
+  }
+}
+.head {
+  flex-wrap: wrap-reverse;
+  background-color: rgb(255, 247, 238);
+  margin: 20px;
+  height: 900px;
+  position: relative;
+  top: 50px;
+}
+
+input {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+input:hover {
+  background-color: white;
+  padding: 10px;
+}
+
+/* img:hover{
+        height: 400px; width: 320px}*/
+.cost {
+  background-color: white;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.cost i {
+  color: blue;
+  font-size: 100px;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.slide1 {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 3px rgb(236, 233, 233);
+  line-height: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.desk {
+  margin: 30px;
+}
+
+.blog {
+  background-color: rgb(250, 241, 230);
+  border: 1px solid;
+  margin-left: 20px;
+}
+
+.blog1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+h1:hover {
+  color: blue;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(107, 95, 95);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+  .blog1 {
+    width: 100%;
+    position: relative;
+    left: -25px;
+  }
+}/*# sourceMappingURL=shoes.css.map */

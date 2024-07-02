@@ -1,0 +1,80 @@
+@import '_navbar.scss';
+
+.bars {
+    background-color: white;
+}
+
+.bars1 {
+    background-color: white;
+    box-shadow: 0px 1px 1px black;
+
+}
+
+.bars img {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+/*......................start view.............*/
+
+body{ margin-left: 20px;}
+
+
+.help h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.polo{
+    font-size: 20px;
+   display: flex;
+    color: rgb(172, 163, 163);
+} 
+
+.srot{
+    position: absolute;
+    right: 30px;
+}
+.the{ display: flex;
+color: black;
+gap: 20px;
+position: relative;
+top: 10px;
+}
+
+ h4{color: green;
+
+}
+
+
+.nd10{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nd{
+    border: 1px solid;
+    height: 300px;
+    line-height: 10px;
+}
+
+.th{ display: flex;
+    color: black;
+    gap: 20px;
+    position: relative;
+    top: 40px;
+    }
+
+.cts1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ct{
+    border: 1px solid;
+    height: 300px;
+    line-height: 10px;
+}
+

@@ -1,0 +1,277 @@
+@import'_navbar.scss';
+
+.bars {
+    background-color: white;
+}
+
+.bars1 {
+    background-color: white;
+    box-shadow: 0px 1px 1px black;
+
+}
+
+.bars img {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+/*........................grid shoes...............*/
+.pro {
+    background-color: white;
+}
+
+.prod {
+    height: 100vh;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    display: grid;
+    column-gap: 30px;
+}
+
+.pro1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: white;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.pro1 img:hover{
+    border: 1px solid;
+}
+
+
+.pro2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 650px;
+}
+
+.pro2 img:hover{
+    border: 1px solid;
+}
+
+.pro3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 650px;
+    position: relative;
+    bottom: 150px;
+}
+
+.pro3 img:hover{
+    border: 1px solid;
+}
+
+.pro4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 650px;
+    position: relative;
+    bottom: 300px;
+}
+
+.pro4 img:hover{
+    border: 1px solid;
+}
+
+.pro6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 650px;
+    position: relative;
+    bottom: 450px;
+}
+
+.pro6 img:hover{
+    border: 1px solid;
+}
+
+.pro5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 450px;
+}
+/*................details product..........*/
+.pro5 h2{
+    color: black;
+    text-decoration-line: none;}
+
+.box{
+    height: 100px;
+    background-color: rgb(245, 233, 233);
+  border: 1px solid brown;
+  padding: 20px;
+  text-decoration: none;
+}
+
+ .box button{
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+ }
+ .rs{
+    height: 50px;
+    background-color: rgb(224, 236, 245);
+    color: green;
+    border: 0.2px solid rgb(241, 206, 141);
+    margin-top: 30px; 
+    font-size: 15px;
+    padding: 20px;
+ }
+
+ .rs button{  background-color: rgb(224, 236, 245);
+    position: relative; 
+    left: 200px; bottom: 10px;
+    border: none;
+    font-weight: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+ .color{
+    border: 1px solid;
+    height: 100px;
+    margin-top: 30px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(144, 159, 172);
+}
+
+.nd{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.color img:hover{
+    border: 1px solid;
+}
+
+.nom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.no{ border: 1px solid rgb(169, 136, 201);
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
+
+.add {
+    height: 40px;
+    background-color: black;
+    margin-top: 100px;
+    border: 1px solid;
+}
+
+.add button{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 190px;
+    border: none;
+    word-spacing:10px;
+}
+
+.add i{
+    color:white;
+    position: relative;
+    right: 10px;
+}
+
+.day{
+    height: 150px;
+    background-color:rgb(242, 246, 248);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    align-items: center;
+    border: 1px solid rgb(147, 201, 243) ; 
+
+}
+
+.day i{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 100px;
+ padding-top: 10px;
+    
+}
+
+.reason{
+    border: 1px solid;
+    height: 200px;
+    background-color: rgb(136, 255, 213);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.reason i{
+    font-size: 30px;
+}
+
+.reas{
+    display: flex;
+
+
+}
+
+.reas p{
+    position: relative;
+    left: 30px;
+}
+
+.offers{
+    background-color: beige;
+    border: 1px solid;
+    height: 400px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.dec{
+
+    height: 100px;
+    margin-top: 30px;
+  padding-left: 20px;
+}
+
+.ripit{
+    background-color: aliceblue;
+    height: 300px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.rip{
+    background-color: aliceblue;
+    height: 100px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,588 @@
+/*................1st navbar.............*/
+.nevbar {
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap-reverse;
+}
+
+.nevbar h4 {
+  position: relative;
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  to {
+    left: -10px;
+    top: 0px;
+  }
+  from {
+    top: 0;
+    left: 100px;
+  }
+}
+.nevbar ul {
+  display: flex;
+  position: relative;
+  left: 100px;
+  gap: 30px;
+  align-items: center;
+}
+
+/*..............2nd bars.............*/
+.bars {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(242, 238, 238);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.bars ul {
+  display: flex;
+  position: absolute;
+  left: 1000px;
+  gap: 20px;
+}
+
+.bars h1 {
+  position: absolute;
+  left: 600px;
+  color: rgb(243, 13, 13);
+  font-family: initial;
+}
+
+.bars h1:hover {
+  color: blueviolet;
+}
+
+.bars img {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+}
+
+/*.............ali ..............*/
+.ali ul {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ali {
+  display: none;
+}
+
+/*.............list...........*/
+.list label {
+  display: none;
+}
+
+.list label i {
+  color: blue;
+}
+
+.list ul li {
+  display: none;
+}
+
+/*checkbox hatane ke liye*/
+#demo {
+  display: none;
+}
+
+/*icon ko click karne par open hone wali list ko target karne ke liye*/
+#demo:checked ~ .list ul li {
+  display: block;
+}
+
+/*.............responsive navebar...................*/
+@media screen and (max-width: 600px) {
+  .nevbar ul {
+    display: none;
+  }
+  .bars1 details summary {
+    display: none;
+  }
+  .bars h1 {
+    position: relative;
+    left: 200px;
+    top: 10px;
+    flex-wrap: wrap-reverse;
+    font-size: 20px;
+  }
+  .list ul {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+    color: blueviolet;
+  }
+  .list label {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+  }
+  .ali {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+  }
+  .bars ul {
+    display: none;
+  }
+}
+/*....................sona bars1............*/
+.bars1 {
+  background-color: rgb(242, 238, 238);
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap-reverse;
+  height: 50px;
+}
+
+.bars1 details summary:hover {
+  color: rgb(236, 16, 16);
+}
+
+.ch {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.parent {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  font-style: initial;
+  grid-template-columns: repeat(6, auto);
+}
+
+.parent h3 {
+  color: rgb(245, 164, 164);
+}
+
+.ch ul {
+  color: rgb(91, 101, 112);
+  line-height: 40px;
+}
+
+.son {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.papa {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  font-style: initial;
+  grid-template-columns: repeat(5, auto);
+}
+
+.papa h3 {
+  color: rgb(241, 196, 196);
+}
+
+.son ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+.wo {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.wom {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+}
+
+.wom h3 {
+  color: rgb(241, 196, 196);
+}
+
+.wo ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+.of {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.off {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.off h3 {
+  color: rgb(241, 196, 196);
+}
+
+.of ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+.ab1 {
+  background-color: white;
+  flex-wrap: wrap-reverse;
+  border: 0.5px;
+  box-shadow: 2px 3px 5px black;
+}
+
+.ab {
+  width: 1350px;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  grid-template-columns: 200px;
+}
+
+.ab1 ul {
+  color: lightslategray;
+  line-height: 40px;
+}
+
+/*...................grid responsive..........*/
+@media screen and (max-width: 600px) {
+  .parent {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .papa {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .wom {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .off {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+  .ab {
+    grid-template-columns: 200px;
+    font-size: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 250px;
+  }
+}
+.bars {
+  background-color: white;
+}
+
+.bars1 {
+  background-color: white;
+  box-shadow: 0px 1px 1px black;
+}
+
+.bars img {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+}
+
+/*........................grid shoes...............*/
+.pro {
+  background-color: white;
+}
+
+.prod {
+  height: 100vh;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
+  display: grid;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.pro1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: white;
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.pro1 img:hover {
+  border: 1px solid;
+}
+
+.pro2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 650px;
+}
+
+.pro2 img:hover {
+  border: 1px solid;
+}
+
+.pro3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 650px;
+  position: relative;
+  bottom: 150px;
+}
+
+.pro3 img:hover {
+  border: 1px solid;
+}
+
+.pro4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 650px;
+  position: relative;
+  bottom: 300px;
+}
+
+.pro4 img:hover {
+  border: 1px solid;
+}
+
+.pro6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  width: 650px;
+  position: relative;
+  bottom: 450px;
+}
+
+.pro6 img:hover {
+  border: 1px solid;
+}
+
+.pro5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  width: 450px;
+}
+
+/*................details product..........*/
+.pro5 h2 {
+  color: black;
+  text-decoration-line: none;
+}
+
+.box {
+  height: 100px;
+  background-color: rgb(245, 233, 233);
+  border: 1px solid brown;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.box button {
+  background-color: black;
+  color: white;
+  position: relative;
+  left: 300px;
+  bottom: 40px;
+}
+
+.rs {
+  height: 50px;
+  background-color: rgb(224, 236, 245);
+  color: green;
+  border: 0.2px solid rgb(241, 206, 141);
+  margin-top: 30px;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.rs button {
+  background-color: rgb(224, 236, 245);
+  position: relative;
+  left: 200px;
+  bottom: 10px;
+  border: none;
+  font-weight: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.color {
+  border: 1px solid;
+  height: 100px;
+  margin-top: 30px;
+  background-color: rgb(243, 243, 243);
+  color: rgb(144, 159, 172);
+}
+
+.nd {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+.color img:hover {
+  border: 1px solid;
+}
+
+.nom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no {
+  border: 1px solid rgb(169, 136, 201);
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+}
+
+.add {
+  height: 40px;
+  background-color: black;
+  margin-top: 100px;
+  border: 1px solid;
+}
+
+.add button {
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 190px;
+  border: none;
+  word-spacing: 10px;
+}
+
+.add i {
+  color: white;
+  position: relative;
+  right: 10px;
+}
+
+.day {
+  height: 150px;
+  background-color: rgb(242, 246, 248);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: center;
+  border: 1px solid rgb(147, 201, 243);
+}
+
+.day i {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border: 1px solid;
+  border-radius: 100px;
+  padding-top: 10px;
+}
+
+.reason {
+  border: 1px solid;
+  height: 200px;
+  background-color: rgb(136, 255, 213);
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.reason i {
+  font-size: 30px;
+}
+
+.reas {
+  display: flex;
+}
+
+.reas p {
+  position: relative;
+  left: 30px;
+}
+
+.offers {
+  background-color: beige;
+  border: 1px solid;
+  height: 400px;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.dec {
+  height: 100px;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.ripit {
+  background-color: aliceblue;
+  height: 300px;
+  width: 100%;
+  border: 1px solid;
+}
+
+.rip {
+  background-color: aliceblue;
+  height: 100px;
+  width: 200px;
+}/*# sourceMappingURL=product detail.css.map */

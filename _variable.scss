@@ -1,0 +1,243 @@
+/*......................web image..........*/
+
+@mixin image {
+    align-items: center;
+    padding: 60px;
+    flex-wrap: wrap-reverse
+}
+
+.web img {
+    @include image
+}
+
+.web1 img {
+    @include image
+}
+
+.web2 img {
+    @include image
+}
+
+@mixin media {
+    width: 100%;
+    margin-left: -60px;
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+    .web img {
+        @include media
+    }
+
+    .web1 img {
+        @include media
+    }
+
+    .web2 img {
+        @include media
+    }
+}
+
+/*................for image...............*/
+.for {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+h1:hover {
+    color: blue;
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+    .for {
+        width: 100%;
+        position: relative;
+        left: -25px;
+    }
+}
+
+
+/*................mens image...............*/
+.mens button:hover {
+    background-color: rgb(245, 160, 160);
+    color: blue;
+    border-radius: 10px;
+  flex-wrap: wrap-reverse;
+}
+
+
+.mens {
+    background-color: rgb(255, 243, 243);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 20px;
+}
+
+.mens img:hover {
+    height: 310px;
+    width: 310px;
+}
+
+.mens h2 {
+    color: blueviolet;
+    flex-wrap: wrap-reverse;
+}
+
+.mens h4 {
+    color: darkgreen;
+}
+
+@mixin menimg {
+    height: 520px;
+    flex-wrap: wrap-reverse;
+    width: 250px;
+    box-shadow: 1px 1px 2px black;
+    padding-right: 20px;
+
+}
+
+.men1 {
+    @include menimg
+}
+
+.men2 {
+    @include menimg
+}
+
+.men3 {
+    @include menimg
+}
+
+.men4 {
+    @include menimg
+}
+
+.men5 {
+    @include menimg
+}
+
+.men6 {
+    @include menimg
+}
+
+.men7 {
+    @include menimg
+}
+
+.men8 {
+    @include menimg
+}
+
+.men9 {
+    @include menimg
+}
+
+.men10 {
+    @include menimg
+}
+
+.men11 {
+    @include menimg
+}
+
+.men12 {
+    @include menimg
+}
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+    .mens {
+        width: 100%;
+        position: relative;
+        left: -25px;
+    }
+}
+
+.head {
+    flex-wrap: wrap-reverse;
+    background-color: rgb(255, 247, 238);
+    margin: 20px;
+    height: 900px;
+    position: relative;
+    top: 50px;}
+
+
+input{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+input:hover {
+    background-color:white;
+    padding: 10px;
+}
+
+/* img:hover{
+        height: 400px; width: 320px}*/
+
+
+
+.cost {
+    background-color: white;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.cost i {
+    color: blue;
+    font-size: 100px;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide1 {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 3px rgb(236, 233, 233);
+    line-height: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desk {
+    margin: 30px;
+}
+.blog{
+    background-color: rgb(250, 241, 230);
+    border: 1px solid;
+    margin-left: 20px;
+}
+
+.blog1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+h1:hover {
+    color: blue;
+}
+
+button{font-size: 20px;
+    background-color: rgb(107, 95, 95);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    }
+
+/*..............responsive.img..........*/
+@media screen and (max-width: 600px) {
+    .blog1 {
+        width: 100%;
+        position: relative;
+        left: -25px;
+    }
+}
