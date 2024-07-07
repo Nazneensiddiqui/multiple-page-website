@@ -63,7 +63,7 @@
 
 .bars img {
   position: absolute;
-  top: 55px;
+  top: 50px;
   left: 50px;
 }
 
@@ -122,7 +122,6 @@
     display: block;
     position: absolute;
     top: 120px;
-    left: -20px;
     color: blueviolet;
   }
   .list label {
@@ -139,6 +138,9 @@
   }
   .bars ul {
     display: none;
+  }
+  h1 {
+    font-size: 20px;
   }
 }
 /*....................sona bars1............*/
@@ -497,10 +499,15 @@
   border: 1px solid;
 }
 
+.size {
+  position: relative;
+  bottom: 10px;
+}
+
 .add {
   height: 40px;
   background-color: black;
-  margin-top: 100px;
+  margin-top: 50px;
   border: 1px solid;
 }
 

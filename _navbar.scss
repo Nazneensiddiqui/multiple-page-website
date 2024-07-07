@@ -65,7 +65,7 @@
 
 .bars img {
     position: absolute;
-    top: 55px;
+    top: 50px;
     left: 50px;}
 
     /*.............ali ..............*/
@@ -107,7 +107,7 @@
 
 /*.............responsive navebar...................*/
 @media screen and (max-width:600px) {
-    .nevbar ul {
+        .nevbar ul {
         display: none;
     }
 
@@ -127,7 +127,6 @@
         display: block;
         position: absolute;
         top: 120px;
-        left: -20px;
         color: blueviolet;
     }
 
@@ -147,6 +146,9 @@
 
     .bars ul {
         display: none;
+    }
+    h1{
+        font-size: 20px;
     }
    
 }

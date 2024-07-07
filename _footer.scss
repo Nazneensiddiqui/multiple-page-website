@@ -1,0 +1,72 @@
+.foot{
+    padding-top: 20px;
+    height: 900px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 5px;
+    margin-left: 20px;
+
+
+}
+.foot h3{
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+
+.foot input{position: relative;
+    left: 500px;
+    top: 50px; 
+    border: 2px solid;
+    height: 30px;
+    background-color: white;
+    color: black;
+    
+}
+.foot button{
+    background-color: rgb(245, 169, 141);
+    color: black;
+    word-spacing: 5px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    height: 30px;
+    border: 2px solid;
+  
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.what{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.face i{
+    color: white;
+    font-size: 30px;
+    gap: 50px;
+
+}
+
+.what ul li{
+    text-decoration: underline;
+    line-height: 25px;
+}
+
+//...................responsive footer............
+@media screen and (max-width:600px) {
+.foot {
+       display: none;
+    }
+        
+    }

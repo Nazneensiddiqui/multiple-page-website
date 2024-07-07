@@ -1,0 +1,151 @@
+/*................1st navbar.............*/
+.nevbar {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap-reverse;
+}
+
+.nevbar h4 {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    to {
+        left: -10px;
+        top: 0px;
+    }
+
+    from {
+        top: 0;
+        left: 100px;
+    }
+}
+
+.nevbar ul {
+    display: flex;
+    position: relative;
+    left: 100px;
+    gap: 30px;
+    align-items: center;
+}
+
+.add {
+     display: flex;
+    gap: 100px;
+    position: relative;
+    left: 450px;
+}
+
+.add1 {
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.add1 i {
+    position: relative;
+    bottom: 5px;
+}
+.add1 h5{
+    color: green;
+    font-size: 15px;
+    padding-top: 10px;
+}
+ .nd h4{
+    color: green;
+}
+
+.nd{
+    background-color: rgb(224, 214, 201);
+    width: 500px;
+    height: 100px;
+    border: 1px white;
+    display: flex;
+    gap: 200px;
+    position: relative;
+    top: 50px;
+    left: 430px;
+    line-height: 5px;
+}
+
+.nd1{
+    background-color: rgb(235, 226, 214);
+    width: 500px;
+    height: 80px;
+    border: 1px white;
+    position: relative;
+    top: 50px;
+    left: 430px;
+    color: rgb(114, 100, 100);
+   }
+   .nd1 p{
+   position: relative;
+   top: 10px;
+   left: 10px;
+   }
+
+   .tan{
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+  
+   }
+
+   .order{
+    height: 50px;
+    width: 500PX;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 430px;
+   }
+
+   .order button{
+    position: relative;
+    top: 15px;
+    left: 200px;
+    border: black;
+    background-color: black;
+    color: white;
+   }
+
+   .box1{
+    height: 80px;
+    width: 500px;
+    background-color: rgb(245, 233, 233);
+    position: relative;
+    top: 70px;
+    left: 430px;
+    gap: 15px;
+}
+
+ .box1 button{
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+    size: 10px;
+    font-family: initial ; 
+
+
+ }
+
+ .box1 p{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: rgb(114, 100, 100) ;
+
+
+ }

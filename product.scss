@@ -1,4 +1,5 @@
 @import '_navbar.scss';
+@import '_footer.scss';
 
 .bars {
     background-color: white;
@@ -14,6 +15,7 @@
     position: absolute;
     top: 60px;
     left: 50px;
+
 }
 
 /*......................start view.............*/
@@ -41,9 +43,11 @@ color: black;
 gap: 20px;
 position: relative;
 top: 10px;
+flex-wrap: wrap-reverse;
 }
 
  h4{color: green;
+
 
 }
 
@@ -51,12 +55,14 @@ top: 10px;
 .nd10{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
 }
 
 .nd{
     border: 1px solid;
     height: 300px;
     line-height: 10px;
+    flex-wrap: wrap-reverse;
 }
 
 .th{ display: flex;
@@ -64,17 +70,22 @@ top: 10px;
     gap: 20px;
     position: relative;
     top: 40px;
+    flex-wrap: wrap-reverse;
     }
 
 .cts1{
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
 }
 
 .ct{
     border: 1px solid;
     height: 300px;
     line-height: 10px;
+    flex-wrap: wrap-reverse;
 }
+
 
