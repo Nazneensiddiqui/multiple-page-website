@@ -13,7 +13,7 @@
 .web2 {
     margin-top: 50px;
     background-color: rgb(215, 227, 228);
-    color: rgb(67, 71, 71);
+    color: rgb(162, 19, 19);
     display: flex;
     justify-content: space-between; 
     margin-left: 100px;
@@ -22,6 +22,7 @@
     height: 500px;
     padding-left: 40px;
     flex-wrap: wrap-reverse;
+
 }
  
 h1{
@@ -31,14 +32,14 @@ h1{
 
 
 .our {
+    line-height: 40px;
+    font-size: 20px;
     position: relative;
-    right: 200px;
+    right: 100px;
 }
 
 
-.web2 img {
-    @include image
-}
+
 
 @mixin media {
     width: 100%;
@@ -57,11 +58,19 @@ h1{
 }
 
 /*................for image...............*/
+.by{
+    position: relative;
+    top: 30px;
+}
+
 .for {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
+    margin-top: 50px;
 }
+
+
 
 h1:hover {
     color: blue;
@@ -78,6 +87,12 @@ h1:hover {
 
 
 /*................mens image...............*/
+
+.loun{
+    position: relative;
+    top: 50px;
+}
+
 .mens button:hover {
     background-color: rgb(245, 160, 160);
     color: blue;
@@ -87,7 +102,7 @@ h1:hover {
 
 
 .mens {
-    background-color: rgb(255, 243, 243);
+    background-color: rgb(253, 248, 248);
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
@@ -102,6 +117,11 @@ h1:hover {
 
 .mens h2 {
     color: blueviolet;
+    flex-wrap: wrap-reverse;
+}
+
+.mens h3 {
+    color:rgb(197, 92, 92);
     flex-wrap: wrap-reverse;
 }
 

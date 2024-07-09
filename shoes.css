@@ -12,9 +12,13 @@
   display: flex;
   gap: 70px;
   flex-wrap: wrap-reverse;
+  font-style: none;
+  align-items: center;
+  color: rgb(96, 37, 151);
 }
 
 .nevbar h4 {
+  color: darkblue;
   position: relative;
   animation-name: slide;
   animation-duration: 2s;
@@ -70,7 +74,7 @@
 .bars img {
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 40px;
 }
 
 /*.............ali ..............*/
@@ -128,6 +132,7 @@
     display: block;
     position: absolute;
     top: 120px;
+    left: -20px;
     color: blueviolet;
   }
   .list label {
@@ -144,9 +149,6 @@
   }
   .bars ul {
     display: none;
-  }
-  h1 {
-    font-size: 20px;
   }
 }
 /*....................sona bars1............*/
@@ -339,7 +341,7 @@
 .web2 {
   margin-top: 50px;
   background-color: rgb(215, 227, 228);
-  color: rgb(67, 71, 71);
+  color: rgb(162, 19, 19);
   display: flex;
   justify-content: space-between;
   margin-left: 100px;
@@ -355,14 +357,10 @@ h1 {
 }
 
 .our {
+  line-height: 40px;
+  font-size: 20px;
   position: relative;
-  right: 200px;
-}
-
-.web2 img {
-  align-items: center;
-  padding: 60px;
-  flex-wrap: wrap-reverse;
+  right: 100px;
 }
 
 /*..............responsive.img..........*/
@@ -376,10 +374,16 @@ h1 {
   }
 }
 /*................for image...............*/
+.by {
+  position: relative;
+  top: 30px;
+}
+
 .for {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap-reverse;
+  margin-top: 50px;
 }
 
 h1:hover {
@@ -395,6 +399,11 @@ h1:hover {
   }
 }
 /*................mens image...............*/
+.loun {
+  position: relative;
+  top: 50px;
+}
+
 .mens button:hover {
   background-color: rgb(245, 160, 160);
   color: blue;
@@ -403,7 +412,7 @@ h1:hover {
 }
 
 .mens {
-  background-color: rgb(255, 243, 243);
+  background-color: rgb(253, 248, 248);
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
@@ -418,6 +427,11 @@ h1:hover {
 
 .mens h2 {
   color: blueviolet;
+  flex-wrap: wrap-reverse;
+}
+
+.mens h3 {
+  color: rgb(197, 92, 92);
   flex-wrap: wrap-reverse;
 }
 
@@ -655,25 +669,21 @@ button {
   letter-spacing: 5px;
 }
 
-.foot input {
+.place {
   position: relative;
-  left: 500px;
-  top: 50px;
-  border: 2px solid;
-  height: 30px;
-  background-color: white;
-  color: black;
+  left: 450px;
+  top: 20px;
 }
 
-.foot button {
-  background-color: rgb(245, 169, 141);
+.place input {
+  background-color: white;
   color: black;
-  word-spacing: 5px;
-  position: relative;
-  left: 500px;
-  top: 50px;
-  height: 30px;
-  border: 2px solid;
+  text-decoration: none;
+}
+
+.place button {
+  background-color: antiquewhite;
+  color: black;
 }
 
 .foot1 {
@@ -681,14 +691,13 @@ button {
   justify-content: space-evenly;
   padding-top: 120px;
   line-height: 30px;
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 2px;
 }
 
 .what {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
+  position: relative;
+  top: 20px;
 }
 
 .face i {

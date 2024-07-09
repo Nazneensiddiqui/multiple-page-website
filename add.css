@@ -119,6 +119,11 @@
   color: white;
 }
 
+.order button a {
+  color: white;
+  text-decoration: none;
+}
+
 .box1 {
   height: 80px;
   width: 500px;

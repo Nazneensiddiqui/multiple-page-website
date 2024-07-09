@@ -1,0 +1,205 @@
+/*................1st navbar.............*/
+.nevbar {
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap-reverse;
+}
+
+.nevbar h4 {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    to {
+        left: -10px;
+        top: 0px;
+    }
+
+    from {
+        top: 0;
+        left: 100px;
+    }
+}
+
+.nevbar ul {
+    display: flex;
+    position: relative;
+    left: 100px;
+    gap: 30px;
+    align-items: center;
+}
+
+/*..............2nd bars.............*/
+.bars {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(242, 238, 238);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.bars ul {
+    display: flex;
+    position: absolute;
+    left: 1000px;
+    gap: 20px;
+}
+
+.bars h1 {
+    position: absolute;
+    left: 600px;
+    color: rgb(243, 13, 13);
+    font-family: initial;
+}
+
+.bars h1:hover {
+    color: blueviolet;
+}
+
+//........................login...............
+.parent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    row-gap: 30px;
+}
+
+
+.parent input{
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+  
+}
+.child p{
+    position: relative;
+    left: 270px;
+    bottom: 10px;
+    font-size: 20px;
+    color: blue;
+}
+
+.parent button{
+    height: 50px;
+    width:400px;
+    background-color: blue;
+    color: white;
+
+}
+ 
+.parent button a{
+    text-decoration: none;
+    color: white;
+}
+
+.parent h5{
+    background-color: white;
+    color: blue;
+    border: 1px solid;
+    height: 30px;
+    width: 400px;
+    padding-top: 20px;
+}
+.child1 p{
+    color: blue;
+}
+
+.parent h5:hover{
+    background-color: blue;
+    color: white;
+}
+ 
+//....................footer...................
+.foot{
+    padding-top: 20px;
+    height: 800px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 5px;
+    margin-left: 20px;
+
+
+}
+.foot h3{
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+}
+
+.foot input{position: relative;
+    left: 500px;
+    top: 50px; 
+    border: 2px solid;
+    height: 30px;
+    background-color: white;
+    color: black;
+    
+}
+.foot button{
+    background-color: rgb(245, 169, 141);
+    color: black;
+    word-spacing: 5px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    height: 30px;
+    border: 2px solid;
+  
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.what{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.face i{
+    color: white;
+    font-size: 30px;
+    gap: 50px;
+
+}
+
+.what ul li{
+    text-decoration: underline;
+    line-height: 25px;
+}
+
+//...................responsive footer............
+@media screen and (max-width:600px) {
+.foot {
+       display: none;
+    }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+

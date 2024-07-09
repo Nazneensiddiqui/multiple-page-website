@@ -6,9 +6,13 @@
   display: flex;
   gap: 70px;
   flex-wrap: wrap-reverse;
+  font-style: none;
+  align-items: center;
+  color: rgb(96, 37, 151);
 }
 
 .nevbar h4 {
+  color: darkblue;
   position: relative;
   animation-name: slide;
   animation-duration: 2s;
@@ -64,7 +68,7 @@
 .bars img {
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 40px;
 }
 
 /*.............ali ..............*/
@@ -122,6 +126,7 @@
     display: block;
     position: absolute;
     top: 120px;
+    left: -20px;
     color: blueviolet;
   }
   .list label {
@@ -138,9 +143,6 @@
   }
   .bars ul {
     display: none;
-  }
-  h1 {
-    font-size: 20px;
   }
 }
 /*....................sona bars1............*/
@@ -340,25 +342,21 @@
   letter-spacing: 5px;
 }
 
-.foot input {
+.place {
   position: relative;
-  left: 500px;
-  top: 50px;
-  border: 2px solid;
-  height: 30px;
-  background-color: white;
-  color: black;
+  left: 450px;
+  top: 20px;
 }
 
-.foot button {
-  background-color: rgb(245, 169, 141);
+.place input {
+  background-color: white;
   color: black;
-  word-spacing: 5px;
-  position: relative;
-  left: 500px;
-  top: 50px;
-  height: 30px;
-  border: 2px solid;
+  text-decoration: none;
+}
+
+.place button {
+  background-color: antiquewhite;
+  color: black;
 }
 
 .foot1 {
@@ -366,14 +364,13 @@
   justify-content: space-evenly;
   padding-top: 120px;
   line-height: 30px;
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 2px;
 }
 
 .what {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
+  position: relative;
+  top: 20px;
 }
 
 .face i {
@@ -438,6 +435,10 @@ body {
   flex-wrap: wrap-reverse;
 }
 
+.nevbar h4 {
+  color: green;
+}
+
 h4 {
   color: green;
 }
@@ -477,4 +478,21 @@ h4 {
   height: 300px;
   line-height: 10px;
   flex-wrap: wrap-reverse;
+}
+
+.place {
+  position: relative;
+  left: 450px;
+  top: 20px;
+}
+
+.place input {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.place button {
+  background-color: antiquewhite;
+  color: black;
 }/*# sourceMappingURL=product.css.map */

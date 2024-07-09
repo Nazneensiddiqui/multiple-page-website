@@ -46,10 +46,11 @@ top: 10px;
 flex-wrap: wrap-reverse;
 }
 
- h4{color: green;
+ .nevbar h4{color: green;}
 
-
-}
+ h4{
+    color: green;
+ }
 
 
 .nd10{
@@ -87,5 +88,26 @@ flex-wrap: wrap-reverse;
     line-height: 10px;
     flex-wrap: wrap-reverse;
 }
+
+.place{
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+.place input{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.place button{
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+
+
 
 

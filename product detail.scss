@@ -17,99 +17,43 @@
 }
 
 /*........................grid shoes...............*/
-.pro {
-    background-color: white;
+
+.product{
+    display: flex;
+    margin: 50px;
+    gap: 80px;
+}
+.pro2{
+    position:absolute;
+top: 200px;
+left: 300px;
 }
 
-.prod {
-    height: 100vh;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
-    display: grid;
-    column-gap: 30px;
+.pro3{
+    position: relative;
+    left: 600px;
 }
 
-.pro1 {
-    grid-row-start: 1;
-    grid-row-end: 4;
-    background-color: white;
-    width: 150px;
-    margin-top: 50px;
-    margin-left: 20px;
-}
+    
+
+
+
 .pro1 img:hover{
     border: 1px solid;
-}
-
-
-.pro2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    width: 650px;
 }
 
 .pro2 img:hover{
     border: 1px solid;
 }
 
-.pro3 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    width: 650px;
-    position: relative;
-    bottom: 150px;
-}
-
-.pro3 img:hover{
-    border: 1px solid;
-}
-
-.pro4 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    width: 650px;
-    position: relative;
-    bottom: 300px;
-}
-
-.pro4 img:hover{
-    border: 1px solid;
-}
-
-.pro6 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    width: 650px;
-    position: relative;
-    bottom: 450px;
-}
-
-.pro6 img:hover{
-    border: 1px solid;
-}
-
-.pro5 {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    width: 450px;
-}
 /*................details product..........*/
-.pro5 h2{
+.pro3 h2{
     color: black;
     text-decoration-line: none;}
 
 .box{
     height: 100px;
+    width: 400px;
     background-color: rgb(245, 233, 233);
   border: 1px solid brown;
   padding: 20px;
@@ -121,10 +65,11 @@
     color: white;
     position: relative;
     left: 300px;
-    bottom: 40px;
+    bottom: 20px;
  }
  .rs{
     height: 50px;
+    width: 400px;
     background-color: rgb(224, 236, 245);
     color: green;
     border: 0.2px solid rgb(241, 206, 141);
@@ -135,7 +80,7 @@
 
  .rs button{  background-color: rgb(224, 236, 245);
     position: relative; 
-    left: 200px; bottom: 10px;
+    left: 200px;
     border: none;
     font-weight: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -145,6 +90,7 @@
  .color{
     border: 1px solid;
     height: 100px;
+    width: 440px;
     margin-top: 30px;
     background-color: rgb(243, 243, 243);
     color: rgb(144, 159, 172);
@@ -177,6 +123,7 @@
 }
 .add {
     height: 40px;
+    width: 440px;
     background-color: black;
     margin-top: 50px;
     border: 1px solid;
@@ -192,6 +139,10 @@
     word-spacing:10px;
 }
 
+.add a{
+    color: white;
+}
+
 .add i{
     color:white;
     position: relative;
@@ -200,6 +151,7 @@
 
 .day{
     height: 150px;
+    width: 440px;
     background-color:rgb(242, 246, 248);
     display: flex;
     justify-content: space-evenly;
@@ -210,21 +162,27 @@
 }
 
 .day i{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     font-size: 30px;
     border: 1px solid;
-    border-radius: 100px;
+    border-radius: 50px;
  padding-top: 10px;
     
+}
+
+.naaz{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .reason{
     border: 1px solid;
     height: 200px;
+    width: 400px;
     background-color: rgb(136, 255, 213);
-    padding: 20px;
-    margin-top: 30px;
+    padding-left: 20px;
+
 }
 
 .reason i{
@@ -246,31 +204,19 @@
     background-color: beige;
     border: 1px solid;
     height: 400px;
-    margin-top: 30px;
+    width: 600px;
     padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.dec{
+.offe1{
+    position: relative;
+    top: 50px;
+    right: 20px;
 
-    height: 100px;
-    margin-top: 30px;
-  padding-left: 20px;
+
 }
-
-.ripit{
-    background-color: aliceblue;
-    height: 300px;
-    width: 100%;
-    border: 1px solid;
-}
-
-.rip{
-    background-color: aliceblue;
-    height: 100px;
-    width: 200px;
-}
-
-
 
 
 

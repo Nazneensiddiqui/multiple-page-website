@@ -6,13 +6,18 @@
     display: flex;
     gap: 70px;
     flex-wrap: wrap-reverse;
+    font-style: none;
+    align-items: center;
+    color: rgb(96, 37, 151);
+    
 }
 
 .nevbar h4 {
+    color: darkblue;
     position: relative;
     animation-name: slide;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite
 }
 
 @keyframes slide {
@@ -66,7 +71,7 @@
 .bars img {
     position: absolute;
     top: 50px;
-    left: 50px;}
+    left: 40px;}
 
     /*.............ali ..............*/
 
@@ -105,13 +110,14 @@
     display: block;
 }
 
+
 /*.............responsive navebar...................*/
 @media screen and (max-width:600px) {
-        .nevbar ul {
+    .nevbar ul {
         display: none;
     }
-
-    .bars1 details summary {
+    
+.bars1 details summary {
         display: none;
     }
 
@@ -127,6 +133,7 @@
         display: block;
         position: absolute;
         top: 120px;
+        left: -20px;
         color: blueviolet;
     }
 
@@ -146,9 +153,6 @@
 
     .bars ul {
         display: none;
-    }
-    h1{
-        font-size: 20px;
     }
    
 }
