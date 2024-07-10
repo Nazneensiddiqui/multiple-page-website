@@ -7,6 +7,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     word-spacing: 5px;
     margin-left: 20px;
+    flex-wrap: wrap-reverse;
 
 
 }
@@ -14,11 +15,13 @@
     padding-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 5px;
+    flex-wrap: wrap-reverse;
 }
 .place{
     position: relative;
     left: 450px;
     top: 20px;
+    flex-wrap: wrap-reverse;
 }
 
 .place input{
@@ -38,6 +41,7 @@
     justify-content: space-evenly;
     padding-top: 120px;
     line-height: 30px;
+    flex-wrap: wrap-reverse;
     
     
 }
@@ -63,9 +67,13 @@
 }
 
 //...................responsive footer............
-@media screen and (max-width:600px) {
-.foot {
-       display: none;
+@media screen and (max-width:600px){ 
+.place input{display: none;}
+
+    .place button{
+        display: none;
     }
+
+   }
         
-    }
+

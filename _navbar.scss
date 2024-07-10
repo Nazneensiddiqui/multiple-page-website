@@ -35,8 +35,8 @@
 .nevbar ul {
     display: flex;
     position: relative;
-    left: 100px;
-    gap: 30px;
+    left: 80px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -125,7 +125,7 @@
         position: relative;
         left: 200px;
         top: 10px;
-        flex-wrap: wrap-reverse;
+      
         font-size: 20px;
     }
 
@@ -133,8 +133,7 @@
         display: block;
         position: absolute;
         top: 120px;
-        left: -20px;
-        color: blueviolet;
+        
     }
 
     .list label {

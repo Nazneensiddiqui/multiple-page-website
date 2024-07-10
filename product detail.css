@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  font-family: verdana;
+}
+
 /*................1st navbar.............*/
 .nevbar {
   width: 100%;
@@ -32,8 +37,8 @@
 .nevbar ul {
   display: flex;
   position: relative;
-  left: 100px;
-  gap: 30px;
+  left: 80px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -119,15 +124,12 @@
     position: relative;
     left: 200px;
     top: 10px;
-    flex-wrap: wrap-reverse;
     font-size: 20px;
   }
   .list ul {
     display: block;
     position: absolute;
     top: 120px;
-    left: -20px;
-    color: blueviolet;
   }
   .list label {
     display: block;
@@ -325,6 +327,77 @@
     top: 250px;
   }
 }
+.foot {
+  padding-top: 20px;
+  height: 900px;
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-spacing: 5px;
+  margin-left: 20px;
+  flex-wrap: wrap-reverse;
+}
+
+.foot h3 {
+  padding-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 5px;
+  flex-wrap: wrap-reverse;
+}
+
+.place {
+  position: relative;
+  left: 450px;
+  top: 20px;
+  flex-wrap: wrap-reverse;
+}
+
+.place input {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.place button {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.foot1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 120px;
+  line-height: 30px;
+  flex-wrap: wrap-reverse;
+}
+
+.what {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 20px;
+}
+
+.face i {
+  color: white;
+  font-size: 30px;
+  gap: 50px;
+}
+
+.what ul li {
+  text-decoration: underline;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .place input {
+    display: none;
+  }
+  .place button {
+    display: none;
+  }
+}
 .bars {
   background-color: white;
 }
@@ -343,19 +416,27 @@
 /*........................grid shoes...............*/
 .product {
   display: flex;
-  margin: 50px;
-  gap: 80px;
+  margin: 100px;
+  gap: 20px;
+  flex-wrap: wrap-reverse;
 }
 
 .pro2 {
   position: absolute;
   top: 200px;
   left: 300px;
+  flex-wrap: wrap-reverse;
 }
 
 .pro3 {
   position: relative;
   left: 600px;
+  flex-wrap: wrap-reverse;
+}
+
+.pro1 {
+  position: relative;
+  bottom: 50px;
 }
 
 .pro1 img:hover {
@@ -416,6 +497,7 @@
   margin-top: 30px;
   background-color: rgb(243, 243, 243);
   color: rgb(144, 159, 172);
+  flex-wrap: wrap-reverse;
 }
 
 .nd {
@@ -496,12 +578,13 @@
 .naaz {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 .reason {
   border: 1px solid;
-  height: 200px;
-  width: 400px;
+  height: 400px;
+  width: 450px;
   background-color: rgb(136, 255, 213);
   padding-left: 20px;
 }
@@ -523,7 +606,7 @@
   background-color: beige;
   border: 1px solid;
   height: 400px;
-  width: 600px;
+  width: 700px;
   padding-left: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -532,5 +615,26 @@
 .offe1 {
   position: relative;
   top: 50px;
-  right: 20px;
+  right: 50px;
+}
+
+.offe2 {
+  position: relative;
+  top: 50px;
+  right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .pro1 img {
+    display: none;
+  }
+  .pro2 img {
+    position: relative;
+    right: 250px;
+  }
+  .por3 {
+    position: relative;
+    right: 500px;
+    top: 1000px;
+  }
 }/*# sourceMappingURL=product detail.css.map */

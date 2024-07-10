@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+    font-family: verdana;
+}
 @import'_navbar.scss';
 @import'_variable.scss';
 @import'_footer.scss';

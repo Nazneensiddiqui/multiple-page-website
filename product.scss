@@ -1,5 +1,14 @@
+
+body{
+    overflow-x: hidden;
+    font-family: verdana;
+}
+
+
+
 @import '_navbar.scss';
 @import '_footer.scss';
+
 
 .bars {
     background-color: white;
@@ -15,12 +24,14 @@
     position: absolute;
     top: 60px;
     left: 50px;
-
 }
+
+
+
 
 /*......................start view.............*/
 
-body{ margin-left: 20px;}
+body{ margin-left: 30px;}
 
 
 .help h1{
@@ -38,6 +49,7 @@ body{ margin-left: 20px;}
     position: absolute;
     right: 30px;
 }
+
 .the{ display: flex;
 color: black;
 gap: 20px;
@@ -57,6 +69,7 @@ flex-wrap: wrap-reverse;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
+   
 }
 
 .nd{
@@ -106,8 +119,14 @@ flex-wrap: wrap-reverse;
     color: black;
 }
 
-
-
+//...................responsive.........
+@media screen and (max-width) { 
+    .web img{
+        width: 700px;
+    }
+    
+    
+}
 
 
 

@@ -1,4 +1,11 @@
+body{
+    overflow-x: hidden;
+    font-family: verdana;
+}
+
+
 @import'_navbar.scss';
+@import'_footer.scss';
 
 .bars {
     background-color: white;
@@ -20,18 +27,26 @@
 
 .product{
     display: flex;
-    margin: 50px;
-    gap: 80px;
+    margin: 100px;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
 }
 .pro2{
     position:absolute;
 top: 200px;
 left: 300px;
+flex-wrap: wrap-reverse;
 }
 
 .pro3{
     position: relative;
     left: 600px;
+    flex-wrap: wrap-reverse;
+}
+
+.pro1{
+    position: relative;
+    bottom: 50px;
 }
 
     
@@ -94,6 +109,7 @@ left: 300px;
     margin-top: 30px;
     background-color: rgb(243, 243, 243);
     color: rgb(144, 159, 172);
+    flex-wrap: wrap-reverse;
 }
 
 .nd{
@@ -174,12 +190,13 @@ left: 300px;
 .naaz{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 .reason{
     border: 1px solid;
-    height: 200px;
-    width: 400px;
+    height: 400px;
+    width: 450px;
     background-color: rgb(136, 255, 213);
     padding-left: 20px;
 
@@ -204,7 +221,7 @@ left: 300px;
     background-color: beige;
     border: 1px solid;
     height: 400px;
-    width: 600px;
+    width: 700px;
     padding-left: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -213,11 +230,35 @@ left: 300px;
 .offe1{
     position: relative;
     top: 50px;
-    right: 20px;
-
-
+    right: 50px;
 }
 
+.offe2{
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+//..................responsive........
+@media screen and (max-width:600px) { 
+    .pro1 img{
+        display: none;
+    }
+    .pro2 img{
+        
+    position: relative;
+    right: 250px;
+
+    }
+
+    .por3{
+        position: relative;
+        right:500px;
+        top: 1000px;
+    }
+    
+    
+}
 
 
 

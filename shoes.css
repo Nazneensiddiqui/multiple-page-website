@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  font-family: verdana;
+}
+
 /*................1st navbar.............*/
 .nevbar {
   width: 100%;
@@ -38,8 +43,8 @@
 .nevbar ul {
   display: flex;
   position: relative;
-  left: 100px;
-  gap: 30px;
+  left: 80px;
+  gap: 20px;
   align-items: center;
 }
 
@@ -125,15 +130,12 @@
     position: relative;
     left: 200px;
     top: 10px;
-    flex-wrap: wrap-reverse;
     font-size: 20px;
   }
   .list ul {
     display: block;
     position: absolute;
     top: 120px;
-    left: -20px;
-    color: blueviolet;
   }
   .list label {
     display: block;
@@ -361,6 +363,7 @@ h1 {
   font-size: 20px;
   position: relative;
   right: 100px;
+  flex-wrap: wrap-reverse;
 }
 
 /*..............responsive.img..........*/
@@ -547,7 +550,6 @@ h1:hover {
   flex-wrap: wrap-reverse;
   background-color: rgb(255, 247, 238);
   margin: 20px;
-  height: 900px;
   position: relative;
   top: 50px;
 }
@@ -605,9 +607,6 @@ input:hover {
   .blog {
     display: none;
   }
-  .head input {
-    display: none;
-  }
   .hope {
     display: none;
   }
@@ -661,18 +660,21 @@ button {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   word-spacing: 5px;
   margin-left: 20px;
+  flex-wrap: wrap-reverse;
 }
 
 .foot h3 {
   padding-top: 50px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   letter-spacing: 5px;
+  flex-wrap: wrap-reverse;
 }
 
 .place {
   position: relative;
   left: 450px;
   top: 20px;
+  flex-wrap: wrap-reverse;
 }
 
 .place input {
@@ -691,6 +693,7 @@ button {
   justify-content: space-evenly;
   padding-top: 120px;
   line-height: 30px;
+  flex-wrap: wrap-reverse;
 }
 
 .what {
@@ -712,7 +715,10 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-  .foot {
+  .place input {
+    display: none;
+  }
+  .place button {
     display: none;
   }
 }/*# sourceMappingURL=shoes.css.map */
